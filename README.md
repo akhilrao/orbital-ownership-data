@@ -2,9 +2,9 @@
 
 This repository contains the data and R code needed to reproduce the dataset `UCS-JSpOC-soy-panel-22.csv`. This dataset combines and cleans data from the Union of Concerned Scientists and Space-Track.org to create a panel of satellites, operators, and years. 
 
-This dataset is used in the paper "Oligopoly competition between satellite constellations will reduce economic welfare from orbit use". The final dataset can also be downloaded from the replication files for that paper:
+This dataset is used in the paper "Oligopoly competition between satellite constellations will reduce economic welfare from orbit use". The final dataset can also be downloaded from the replication files for that paper: https://doi.org/10.57968/Middlebury.23816994.v1
 
-A "living" version of this repository can be found at: 
+This is a "living" version of the official repository and should not be cited. If you want to cite the code or data associated with this project, please reference the official repository: 
 
 # Repository structure
 
