@@ -14,10 +14,10 @@ A "living" version of this repository can be found at:
 
 	* API queries to generate the JSON files can be found in json_cleaned_script.R. They are restated below for convenience. These queries were run on January 1, 2023 to produce the data used in "Oligopoly competition between satellite constellations will reduce economic welfare from orbit use".
 
-		* <800: https://www.space-track.org/basicspacedata/query/class/satcat/OBJECT_TYPE/PAYLOAD/APOGEE/%3C800/orderby/INTLDES%20asc/emptyresult/show
+		* below 800: https://www.space-track.org/basicspacedata/query/class/satcat/OBJECT_TYPE/PAYLOAD/APOGEE/%3C800/orderby/INTLDES%20asc/emptyresult/show
 		*  800-1999: https://www.space-track.org/basicspacedata/query/class/satcat/OBJECT_TYPE/PAYLOAD/APOGEE/800,800--2000/orderby/INTLDES%20asc/emptyresult/show
 		* 2000-33999: https://www.space-track.org/basicspacedata/query/class/satcat/OBJECT_TYPE/PAYLOAD/APOGEE/2000,2000--34000/orderby/INTLDES%20asc/emptyresult/show
-		* \>33999: https://www.space-track.org/basicspacedata/query/class/satcat/APOGEE/>33999/OBJECT_TYPE/PAYLOAD/orderby/INTLDES%20asc/emptyresult/show
+		* above 33999: https://www.space-track.org/basicspacedata/query/class/satcat/APOGEE/>33999/OBJECT_TYPE/PAYLOAD/orderby/INTLDES%20asc/emptyresult/show
 
 * `/Current R scripts` contains R scripts to process the data.
 	
