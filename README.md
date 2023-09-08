@@ -1,12 +1,12 @@
 # Tracking orbital-use patterns
 
-This repository contains data and code to track orbital-use patterns, including concentration measures, over time. It currently combines and cleans data from the Union of Concerned Scientists and Space-Track.org to create a panel of satellites, operators, and years.
+This repository contains data and code to track orbital-use patterns, including concentration measures, over time. It currently combines and cleans data from the Union of Concerned Scientists and Space-Track.org to create a satellite-operator-year panel dataset.
 
 # What is this for?
 
 There are many sources that track some measures of orbit use, e.g. Space-Track.org, DISCOSweb, UCS, Jonathan's Launch Log, Gunther's Space Report. Most if not all of these are focused on knowing where physical objects have been sent. While useful, this type of data is missing important fields necessary for economic analysis of orbit use---things like who owns what, where, what the debris environment looks like, and how it all changes over time. This project is an effort to track that data using only public domain sources.
 
-Future updates will incorporate distinct estimates of launch prices and model-derived estimates of payoff measures.
+At the moment the dataset only has active payloads. Future updates will incorporate the evolution of the debris environment, estimates of launch prices, and model-derived estimates of location-specific payoffs.
 
 Gordon Lewis and [Ethan Berner](https://github.com/ethanberner) contributed immensely to the construction of this dataset. Please reach out if you are interested in contributing.
 
