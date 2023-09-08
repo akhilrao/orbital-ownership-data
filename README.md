@@ -1,10 +1,12 @@
-# Preparing a satellite-operator-year panel from UCS and space-track data
+# Tracking orbital-use patterns
 
-This repository contains the data and R code needed to reproduce the dataset `UCS-JSpOC-soy-panel-22.csv`. This dataset combines and cleans data from the Union of Concerned Scientists and Space-Track.org to create a panel of satellites, operators, and years. 
+This repository contains data and code to track orbital-use patterns, including concentration measures, over time. It currently combines and cleans data from the Union of Concerned Scientists and Space-Track.org to create a panel of satellites, operators, and years. 
 
-This dataset is used in the paper "Oligopoly competition between satellite constellations will reduce economic welfare from orbit use". The final dataset can also be downloaded from the replication files for that paper: https://doi.org/10.57968/Middlebury.23816994.v1
+A version of this dataset is used in the paper "Oligopoly competition between satellite constellations will reduce economic welfare from orbit use". The final dataset can also be downloaded from the replication files for that paper: https://doi.org/10.57968/Middlebury.23816994.v1  . Repeatable code and data associated with Figure 1 of that paper can be found in the Middlebury Institutional Repository : https://doi.org/10.57968/Middlebury.23982468.v1 . The MIR code and datasets will recreate the same dataset used in that paper. This is a "living" version of the project to track orbital-use patterns and will continue to be updated.
 
-This is a "living" version of the official repository and should not be cited. If you want to cite the code or data associated with this project, please reference the official repository: 
+# What is this for?
+
+There are many sources that track some measures of orbit use, e.g. Space-Track.org, DISCOSweb, UCS, Jonathan's Launch Log, Gunther's Space Report. Most if not all of these are focused on knowing where physical objects have been sent. While useful, this type of data is missing important fields necessary for economic analysis of orbit use---things like who owns what, where, what the debris environment looks like, and how it all changes over time. This project is an effort to track that data using only public domain sources.
 
 # Repository structure
 
