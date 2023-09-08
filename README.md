@@ -2,8 +2,6 @@
 
 This repository contains data and code to track orbital-use patterns, including concentration measures, over time. It currently combines and cleans data from the Union of Concerned Scientists and Space-Track.org to create a panel of satellites, operators, and years.
 
-Gordon Lewis and Ethan Berner (@ethanberner) contributed immensely to the construction of this dataset.
-
 ## Relation to other replication materials
 
 A version of this dataset was used in the paper "Oligopoly competition between satellite constellations will reduce economic welfare from orbit use". The final dataset can also be downloaded from the replication files for that paper: https://doi.org/10.57968/Middlebury.23816994.v1  . Repeatable code and data associated with Figure 1 of that paper can be found in the Middlebury Institutional Repository : https://doi.org/10.57968/Middlebury.23982468.v1 . The MIR code and datasets will recreate the same dataset used in that paper. This is a "living" version of the project to track orbital-use patterns and will continue to be updated.
@@ -13,6 +11,8 @@ A version of this dataset was used in the paper "Oligopoly competition between s
 There are many sources that track some measures of orbit use, e.g. Space-Track.org, DISCOSweb, UCS, Jonathan's Launch Log, Gunther's Space Report. Most if not all of these are focused on knowing where physical objects have been sent. While useful, this type of data is missing important fields necessary for economic analysis of orbit use---things like who owns what, where, what the debris environment looks like, and how it all changes over time. This project is an effort to track that data using only public domain sources.
 
 Future updates will incorporate distinct estimates of launch prices and model-derived estimates of payoff measures.
+
+Gordon Lewis and [Ethan Berner](https://github.com/ethanberner) contributed immensely to the construction of this dataset. Please reach out if you are interested in contributing.
 
 # Repository structure
 
