@@ -48,7 +48,7 @@ A version of this dataset was used in the paper "Oligopoly competition between s
 
 * `/data-cleaning-notes` contains Excel and CSV files used to assist in harmonizing text fields in `UCS_text_cleaner.R`. They are included here for completeness.
 
-* `JSR data` contains TSV files from [Jonathan McDowell's catalog](https://planet4589.org/space/gcat/index.html) on object launches and satellite ownership. The folder also contains some simple plots and an R script to produce them.
+* `/JSR data` contains TSV files from [Jonathan McDowell's catalog](https://planet4589.org/space/gcat/index.html) on object launches and satellite ownership. The folder also contains some simple plots and an R script to produce them.
 
 # Creating the dataset
 
