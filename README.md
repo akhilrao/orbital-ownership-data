@@ -4,11 +4,16 @@ This repository contains data and code to track orbital-use patterns, including 
 
 # What is this for?
 
-There are many sources that track some measures of orbit use, e.g. Space-Track.org, DISCOSweb, UCS, Jonathan's Launch Log, Gunther's Space Report. Most if not all of these are focused on knowing where physical objects have been sent. While useful, this type of data is missing important fields necessary for economic analysis of orbit use---things like who owns what, where, what the debris environment looks like, and how it all changes over time. This project is an effort to track that data using only public domain sources.
+There are many sources that track some measures of orbit use, e.g. Space-Track.org, DISCOSweb, UCS, Gunther's Space Report. Most if not all of these are focused on knowing where physical objects have been sent. While useful, this type of data is missing important fields necessary for economic analysis of orbit use---things like who owns what, where, what the debris environment looks like, and how it all changes over time. This project is an effort to track that data using only public domain sources.
 
 At the moment the dataset only has active payloads. Future updates will incorporate the evolution of the debris environment, estimates of launch prices, and model-derived estimates of location-specific payoffs.
 
 Gordon Lewis and [Ethan Berner](https://github.com/ethanberner) contributed immensely to the construction of this dataset. Please reach out if you are interested in contributing.
+
+**Update 2023-15-11:** The JSR satcat has a lot of detail on satellite Owner/Operators along with details on debris. I'm still investigating the extent to which this might be a suitable replacement for the current data flow, which is a bit effort-intensive. I think JSR uses the UCS data as well, which would help minimize drift from switching. For now the JSR launch log and satellite catalog have been added to a folder labeled "JSR data".
+
+Citation: McDowell, Jonathan C., 2020. General Catalog of Artificial Space Objects,
+  Release 1.5.4 , https://planet4589.org/space/gcat
 
 ## Relation to other replication materials
 
@@ -42,6 +47,8 @@ A version of this dataset was used in the paper "Oligopoly competition between s
 * `/Output_data` contains the final data outputs.
 
 * `/data-cleaning-notes` contains Excel and CSV files used to assist in harmonizing text fields in `UCS_text_cleaner.R`. They are included here for completeness.
+
+* `JSR data` contains TSV files from [Jonathan McDowell's catalog](https://planet4589.org/space/gcat/index.html) on object launches and satellite ownership. The folder also contains some simple plots and an R script to produce them.
 
 # Creating the dataset
 
